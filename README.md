@@ -1,3 +1,4 @@
+I am learning how to use version control with my project
 # mycode
 This is a respository for my test code that I will store for testing purposes.
 
