@@ -16,8 +16,5 @@ for row in csv.reader(f):
     print("export OS_PROJECT_DOMAIN_NAME=" +row[2], file=rcfile)
     print("export OS_USERNAME=" + row[3], file=rcfile)
     print("export OS_USER_DOMAIN_NAME=" + row[1], file=rcfile)
-    print("export OS_PROJECT_DOMAIN_NAME" + row[2], file=rcfile)
-    print("export OS_USERNAME=" + row[3], file=rcfile)
-    print("export OS_USER_DOMAIN_NAME=" + row[4], file=rcfile)
     print("export OS_PASSWORD=" +row[5], file=rcfile)
     rcfile.close()
